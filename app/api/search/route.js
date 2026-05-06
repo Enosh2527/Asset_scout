@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-export const runtime = 'edge';
+
 
 const PEXELS_API_KEY = process.env.PEXELS_API_KEY || "LscjUvYmR4WwB4WwB4WwB4WwB4WwB4WwB4WwB4WwB4WwB4Ww"; // Use process.env in production
 
