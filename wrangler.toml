@@ -1,0 +1,7 @@
+name = "asset-scout"
+compatibility_date = "2026-05-06"
+compatibility_flags = [ "nodejs_compat" ]
+
+[pages_build_config]
+build_command = "npx @cloudflare/next-on-pages"
+destination_dir = ".vercel/output"
