@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+export const runtime = 'edge';
 import ytSearch from 'yt-search';
 import google from 'googlethis';
 
