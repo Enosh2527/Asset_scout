@@ -5,3 +5,4 @@ compatibility_flags = [ "nodejs_compat" ]
 [pages_build_config]
 build_command = "npx @cloudflare/next-on-pages"
 destination_dir = ".vercel/output"
+pages_build_output_dir = ".vercel/output"
