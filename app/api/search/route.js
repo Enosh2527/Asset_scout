@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 
 
-const PEXELS_API_KEY = process.env.PEXELS_API_KEY || "Kus0NHJfLJqmd3WrX5DFLYKzkCTdQTkUJk6LqxN3kO2DaXx9FDUXDy7f"; 
+const PEXELS_API_KEY = process.env.PEXELS_API_KEY || "PLACEHOLDER_KEY"; 
 
 export async function POST(request) {
   try {

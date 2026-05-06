@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 
 import { GoogleGenAI } from '@google/genai';
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "AIzaSyCvXkLa7On7RkWKpDi11OFmqN8NlQFLrG0";
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "PLACEHOLDER_KEY";
 
 export async function POST(request) {
   try {
